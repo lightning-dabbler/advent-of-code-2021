@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+    advent-of-code-2021:
+        container_name: advent-of-code-2021
+        image: python:3.9.8-slim
+        volumes:
+            - ./:/advent-of-code
+        working_dir: /advent-of-code
+        stdin_open: true # Keep STDIN open even if not attached
+        tty: true        # Allocate a pseudo-TTY
