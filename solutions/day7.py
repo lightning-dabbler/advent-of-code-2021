@@ -1,6 +1,6 @@
 # https://adventofcode.com/2021/day/7
 
-def part1(arr):
+def part1(positions):
     start = min(positions)
     end = max(positions)
     min_cost = float('inf')
@@ -12,7 +12,7 @@ def part1(arr):
             min_cost = total
     return min_cost
 
-def part2(arr):
+def part2(positions):
     start = min(positions)
     end = max(positions)
     min_cost = float('inf')
