@@ -5,7 +5,7 @@ def part1():
     horizontals= []
     max_x = 0
     max_y = 0 
-    with open("solutions/day5_input.txt") as f:
+    with open("solutions/day_05_input.txt") as f:
         for line in f:
             left,right = line.strip().split('->')
             x1,y1 = map(int,left.strip().split(','))
@@ -44,7 +44,7 @@ def part2():
     diagonal_eqs = []
     max_x = 0
     max_y = 0 
-    with open("solutions/day5_input.txt") as f:
+    with open("solutions/day_05_input.txt") as f:
         for line in f:
             left,right = line.strip().split('->')
             x1,y1 = map(int,left.strip().split(','))

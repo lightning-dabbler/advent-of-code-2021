@@ -3,7 +3,7 @@
 def part1():
     total = 0
     num_of_uni_sizes = [3,2,4,7]
-    with open("solutions/day8_input.txt") as f:
+    with open("solutions/day_08_input.txt") as f:
         for line in f:
             line = line.strip().split('|')
             output = line[1].strip().split(' ')
@@ -19,7 +19,7 @@ def part1():
 
 def part2():
     total_sum = 0
-    with open("solutions/day8_input.txt") as f:
+    with open("solutions/day_08_input.txt") as f:
         for line in f:
             line = line.strip().split('|')
             output = line[1].strip().split(' ')

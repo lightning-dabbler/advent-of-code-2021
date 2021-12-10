@@ -3,7 +3,7 @@
 class GiantSquid:
     def __init__(self):
         self.matrix = []
-        with open('solutions/day4_input.txt',mode='r') as f:
+        with open('solutions/day_04_input.txt',mode='r') as f:
             self.nums_to_draw = list(map(int,f.readline().strip().split(',')))
             for line in f:
                 line = line.strip()

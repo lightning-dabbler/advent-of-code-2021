@@ -26,7 +26,7 @@ def part2(positions):
     return min_cost
 
 if __name__ == '__main__':
-    positions = list(map(int,open("solutions/day7_input.txt").read().strip().split(',')))
+    positions = list(map(int,open("solutions/day_07_input.txt").read().strip().split(',')))
     # part 1
     print(part1(positions))
 

@@ -8,7 +8,7 @@ make up
 
 Example execution of solution:
 ```
-python solutions/day8.py
+python solutions/day_08.py
 ```
 
 Spin down and remove container:

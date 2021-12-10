@@ -5,7 +5,7 @@ import sys
 def part1():
     horizontal = 0
     depth = 0
-    with open('solutions/day2_input.txt',mode='r') as f:
+    with open('solutions/day_02_input.txt',mode='r') as f:
         for line in f:
             direction,units = line.strip().split(' ')
             units = int(units)
@@ -21,7 +21,7 @@ def part2():
     horizontal = 0
     depth = 0
     aim = 0
-    with open('solutions/day2_input.txt',mode='r') as f:
+    with open('solutions/day_02_input.txt',mode='r') as f:
         for line in f:
             direction,units = line.strip().split(' ')
             units = int(units)

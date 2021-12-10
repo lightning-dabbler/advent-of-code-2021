@@ -5,7 +5,7 @@ import heapq
 def part1():
     total_sum = 0
     matrix = []
-    with open("solutions/day9_input.txt") as f:
+    with open("solutions/day_09_input.txt") as f:
         for line in f:
             matrix.append(line.strip())
     n = len(matrix)
@@ -67,7 +67,7 @@ class Basin:
 
 def part2():
     matrix = []
-    with open("solutions/day9_input.txt") as f:
+    with open("solutions/day_09_input.txt") as f:
         for line in f:
             matrix.append(line.strip())
     low_points = []

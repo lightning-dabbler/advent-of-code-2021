@@ -40,7 +40,7 @@ def num_lanternfish(arr,days):
     return total_fish
 
 if __name__ == '__main__':
-    input_txt = open("solutions/day6_input.txt").read()
+    input_txt = open("solutions/day_06_input.txt").read()
     arr = input_txt.strip().split(',')
     # part 1
     print(num_lanternfish(arr,80))

@@ -8,7 +8,7 @@ def part1():
     tally = defaultdict(dict)
     gamma = ''
     epsilon = ''
-    with open('solutions/day3_input.txt',mode='r') as f:
+    with open('solutions/day_03_input.txt',mode='r') as f:
         for line in f:
             binary_num = line.strip()
             for idx,i in enumerate(binary_num):
@@ -33,7 +33,7 @@ class LifeSupport:
         self.co2 = self.o2 = ''
     def start(self):
         arr = []
-        with open('solutions/day3_input.txt',mode='r') as f:
+        with open('solutions/day_03_input.txt',mode='r') as f:
             for line in f:
                 binary_num = line.strip()
                 arr.append(binary_num)

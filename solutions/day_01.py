@@ -6,7 +6,7 @@ import queue
 def part1():
     prev = None
     count = 0
-    with open('solutions/day1_input.txt',mode='r') as f:
+    with open('solutions/day_01_input.txt',mode='r') as f:
         for line in f:
             depth = float(line.strip())
             if prev and depth > prev:
@@ -20,7 +20,7 @@ def part2():
     sum_depths = 0
     count = 0
     prev_sum = 0
-    with open('solutions/day1_input.txt',mode='r') as f:
+    with open('solutions/day_01_input.txt',mode='r') as f:
         for line in f:
             depth = float(line.strip())
             if q.qsize() ==3:

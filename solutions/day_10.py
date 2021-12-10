@@ -6,7 +6,7 @@ def part1():
     close = [')''}',']','>']
     points = {'}':1197,'>':25137,']':57,')':3}
     total = 0
-    with open("solutions/day10_input.txt") as f:
+    with open("solutions/day_10_input.txt") as f:
         for line in f:
             stack = []
             corrupted = False
@@ -38,7 +38,7 @@ def part2():
     close = [')''}',']','>']
     points = {'}':3,'>':4,']':2,')':1}
     total_points = []
-    with open("solutions/day10_input.txt") as f:
+    with open("solutions/day_10_input.txt") as f:
         for line in f:
             stack = []
             corrupted = False
